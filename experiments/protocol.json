@@ -1,0 +1,19 @@
+{
+  "frozen_at_utc": "2026-11-25T15:51:23.422427+00:00",
+  "development": "Four labeled Scroll 1 cubes for training; remaining Scroll 1 cube for selecting settings. No Scroll 5 performance inspection.",
+  "test": "All 6 official Scroll 5 cubes; one deterministically chosen eligible segment per manual tree; no cap. Endpoints are provided. Each segment has at least 3 interior manual nodes, original click span 64..128 voxels.",
+  "primary": "refit_blend",
+  "primary_comparator": "two_way_flow",
+  "stronger_ablation": "multiscale_texture",
+  "primary_measure": "Paired, per-fiber mean 3D distance of original hidden interior nodes to the continuous predicted polyline in voxels.",
+  "secondary": "Reverse distance to the manual polyline. Fraction of fibers whose 90th-percentile hidden-node error exceeds 5 voxels. Report all cube results.",
+  "review_threshold": "A change between first and second fits above 0.67 voxels means higher review priority; set from the development cube before testing.",
+  "sha256": {
+    "fiber_trace.py": "44abff704befeaf4563c0df3542842cdb88098680673642731f7f11b31d9779f",
+    "fiber_model.py": "e1ac526c4b1866b32167298616b5d212fd2d2ee80c9b891b5420e470f0a11c32",
+    "registration.py": "6fc07ecace7dbd2dd38601f70aa4ac1a6cd58a0c16ae600fd5fc52cf072401ac",
+    "dataset.py": "0c0b2de12252bfc7e652f9994d0525adc81040a65a57634c19fe05c9671b0590",
+    "experiment.py": "4662a5d838bd99f14690af7b1103c9dcd9f962eed51d2968950344be951e02a1",
+    "weights/fiber_long_s1.pt": "c2c5485883c50ca068e0092291d1daddcc578a0aa99655859601fe56b2b92016"
+  }
+}
