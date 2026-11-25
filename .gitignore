@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+data/
+evidence/
+experiments/*
+!experiments/protocol.json
+upstream/
+release/
+*.zip
+example_fiber.json
+submission_draft.md
+weights/*.log.json
