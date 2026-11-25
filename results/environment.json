@@ -1,0 +1,16 @@
+{
+  "python": "3.13.14",
+  "numpy": "2.5.1",
+  "scipy": "1.18.0",
+  "opencv": "5.0.0",
+  "Pillow": "12.3.0",
+  "torch": "2.13.0+cu130",
+  "matplotlib": "3.11.1",
+  "system": "Windows x64",
+  "device": "NVIDIA GeForce RTX 5080",
+  "seed": 418,
+  "training_steps": 1550,
+  "training_batch_size": 8,
+  "held_out_scroll1_cube_sorted_index": 1,
+  "official_parser_revision": "9c1afbb1b97a3490156f828704aa706fe3f6cb85"
+}
